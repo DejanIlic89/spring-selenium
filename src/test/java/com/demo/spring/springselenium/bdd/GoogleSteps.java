@@ -5,8 +5,10 @@ import com.demo.spring.springselenium.page.google.GooglePage;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.springframework.boot.test.context.SpringBootTest;
 import org.testng.Assert;
 
+@SpringBootTest
 public class GoogleSteps {
 
     @LazyAutowired

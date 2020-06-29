@@ -5,6 +5,7 @@ import io.cucumber.testng.CucumberOptions;
 import org.testng.annotations.DataProvider;
 
 @CucumberOptions(
+        strict = true,
         tags = "@google or @visa or @login",
         features = "classpath:features",
         glue = "com.demo.spring.springselenium.bdd",
