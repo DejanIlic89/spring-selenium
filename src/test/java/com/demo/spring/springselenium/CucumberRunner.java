@@ -11,7 +11,7 @@ import org.testng.annotations.DataProvider;
         glue = "com.demo.spring.springselenium.bdd",
         plugin = {
                 "pretty",
-                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
+                "html:target/test-output/"
         }
 )
 public class CucumberRunner extends AbstractTestNGCucumberTests {
